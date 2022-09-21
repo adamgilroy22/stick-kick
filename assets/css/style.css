@@ -5,13 +5,25 @@ body {
     text-align: center;
 }
 
+/* Header */
+header h1 {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
 /* Main game area */
 .game-area {
     width: 66%;
     margin: auto;
 }
 
+/* Scoreboard */
+.score-board {
+    font-size: 1.5rem;
+}
+
 /* Game image */
 .game-image img{
     max-width: 80%;
+    height: auto;
 }
