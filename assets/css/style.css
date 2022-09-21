@@ -1,0 +1,15 @@
+
+body {
+    text-align: center;
+}
+
+/* Main game area */
+.game-area {
+    width: 66%;
+    margin: auto;
+}
+
+/* Game image */
+.game-image img{
+    max-width: 80%;
+}
