@@ -76,13 +76,13 @@ function checkWinner() {
 }
 
 /**
- * End the game if either user or cpu reach 5 goals
+ * Disable direction buttons if either user or cpu reach 5 goals
  */
 function endGame() {
-    if (userGoals || cpuGoals === 5){
+    
         document.getElementById("left").disabled = true;
         document.getElementById("middle").disabled = true;
         document.getElementById("right").disabled = true;
-    }
+    
 }
 
