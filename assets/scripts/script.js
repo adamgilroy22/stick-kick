@@ -3,13 +3,13 @@ const controlButtons = document.querySelectorAll(".control-button");
 const gameState = document.querySelector("#gameState");
 const userScore = document.getElementById('user-score');
 const cpuScore = document.getElementById('cpu-score');
-let userKicker;
-let cpuKicker;
+let userKicker = 0;
+let cpuKicker = 1;
 let userDirection;
 let cpuDirection;
 let userGoals = 0;
 let cpuGoals = 0;
-let kicker = userKicker;
+var kicker = userKicker;
 
 
 /**
@@ -51,16 +51,24 @@ function generateCpuDirection() {
 function checkOutcome() {
     let outcome = "";
 
-    if (userDirection === cpuDirection){
-        cpuGoals++;
-        outcome = `User kicked ${userDirection} and CPU dived ${cpuDirection}. SAVED!`;
-        cpuScore.innerHTML = cpuGoals;
-        changeKicker();
-    } else {
-        userGoals++;
-        outcome = `User kicked ${userDirection} and CPU dived ${cpuDirection}. GOAL!`;
-        userScore.innerHTML = userGoals;
-    }
+    if (kicker === userKicker) {
+        if (userDirection === cpuDirection){
+            outcome = `User kicked ${userDirection} and CPU dived ${cpuDirection}. SAVED!`;
+        } else {
+            userGoals++;
+            outcome = `User kicked ${userDirection} and CPU dived ${cpuDirection}. GOAL!`;
+            userScore.innerHTML = userGoals;
+        }
+    } else if (kicker === cpuKicker) {
+        if (cpuDirection === userDirection){
+            outcome = `CPU kicked ${cpuDirection} and User dived ${userDirection}. SAVED!`;
+        } else {
+            cpuGoals++;
+            outcome = `CPU kicked ${cpuDirection} and User dived ${userDirection}. GOAL!`;
+            cpuScore.innerHTML = cpuGoals;
+        }
+    }  
+    changeKicker();
     return outcome;
 
 }
@@ -71,8 +79,10 @@ function checkOutcome() {
 function changeKicker() {
     if (kicker === userKicker){
         kicker = cpuKicker;
-    } else if (kicker === cpuKicker){
+        gameState.innerHTML = "It's your turn to save"
+    }else if (kicker === cpuKicker){
         kicker = userKicker;
+        gameState.innerHTML = "It's your turn to kick"
     }
 }
 
