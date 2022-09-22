@@ -18,6 +18,7 @@ controlButtons.forEach(button => button.addEventListener("click", () => {
     userDirection = button.textContent;
     generateCpuDirection();
     kickOutcome.textContent = checkOutcome();
+    checkWinner();
 
 }));
 
@@ -58,5 +59,17 @@ function checkOutcome() {
     }
     return outcome;
 
+}
+
+/**
+ * Check if either player or CPU have reached 5 goals
+ */
+function checkWinner() {
+    if (userGoals === 5 && cpuGoals < 5){
+        userState.innerHTML = "YOU WIN!"
+    }
+    if (userGoals < 5 && cpuGoals === 5){
+        userState.innerHTML = "COMPUTER WINS!"
+    }
 }
 
