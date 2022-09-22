@@ -23,7 +23,8 @@ header h1 {
 }
 
 /* Game image */
-.game-image img{
-    max-width: 80%;
+.game-image-area img{
+    max-width: 100%;
     height: auto;
+    width: auto;
 }
