@@ -17,7 +17,7 @@ controlButtons.forEach(button => button.addEventListener("click", () => {
 
     userDirection = button.textContent;
     generateCpuDirection();
-    kickOutcome.textContent = `You shot ${userDirection}, Computer went ${cpuChoice}.`;
+    kickOutcome.textContent = checkOutcome();
 
 }));
 
@@ -42,14 +42,21 @@ function generateCpuDirection() {
 
 /**
  * Check both user and cpu choices and determine if it's a goal or a save
+ * and add to scoreboard
  */
 function checkOutcome() {
+    let outcome = "";
 
     if (userDirection === cpuDirection){
-        return "SAVE!";
+        cpuGoals++;
+        outcome = "SAVE!";
+        cpuScore.innerHTML = cpuGoals;
     } else {
-        return "GOAL!";
+        userGoals++;
+        outcome = "GOAL!";
+        userScore.innerHTML = userGoals;
     }
+    return outcome;
 
 }
 
