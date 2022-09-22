@@ -49,11 +49,11 @@ function checkOutcome() {
 
     if (userDirection === cpuDirection){
         cpuGoals++;
-        outcome = "SAVE!";
+        outcome = `User kicked ${userDirection} and CPU dived ${cpuDirection}. SAVED!`;
         cpuScore.innerHTML = cpuGoals;
     } else {
         userGoals++;
-        outcome = "GOAL!";
+        outcome = `User kicked ${userDirection} and CPU dived ${cpuDirection}. GOAL!`;
         userScore.innerHTML = userGoals;
     }
     return outcome;
