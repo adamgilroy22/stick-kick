@@ -1,5 +1,4 @@
 /* jshint esversion: 11 */
-const kickOutcome = document.querySelector("#kick-outcome");
 const controlButtons = document.querySelectorAll(".control-button");
 const gameState = document.querySelector("#gameState");
 const userScore = document.getElementById('user-score');
@@ -22,7 +21,7 @@ controlButtons.forEach(button => button.addEventListener("click", () => {
 
     userDirection = button.textContent;
     generateCpuDirection();
-    kickOutcome.textContent = checkOutcome();
+    gameState.textContent = checkOutcome();
     checkWinner();
 
 }));
