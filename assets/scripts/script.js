@@ -53,18 +53,18 @@ function checkOutcome() {
 
     if (kicker === userKicker) {
         if (userDirection === cpuDirection){
-            outcome = `User kicked ${userDirection} and CPU dived ${cpuDirection}. SAVED!`;
+            outcome = `You kicked ${userDirection} and CPU dived ${cpuDirection}. SAVED!`;
         } else {
             userGoals++;
-            outcome = `User kicked ${userDirection} and CPU dived ${cpuDirection}. GOAL!`;
+            outcome = `You kicked ${userDirection} and CPU dived ${cpuDirection}. GOAL!`;
             userScore.innerHTML = userGoals;
         }
     } else if (kicker === cpuKicker) {
         if (cpuDirection === userDirection){
-            outcome = `CPU kicked ${cpuDirection} and User dived ${userDirection}. SAVED!`;
+            outcome = `CPU kicked ${cpuDirection} and You dived ${userDirection}. SAVED!`;
         } else {
             cpuGoals++;
-            outcome = `CPU kicked ${cpuDirection} and User dived ${userDirection}. GOAL!`;
+            outcome = `CPU kicked ${cpuDirection} and You dived ${userDirection}. GOAL!`;
             cpuScore.innerHTML = cpuGoals;
         }
     }  
