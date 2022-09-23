@@ -78,6 +78,9 @@ function checkOutcome() {
         }
     } 
     
+    document.getElementById("left").disabled = true;
+    document.getElementById("middle").disabled = true;
+    document.getElementById("right").disabled = true;
     return outcome;
 
 }
@@ -88,10 +91,16 @@ function checkOutcome() {
 function changeKicker() {
     if (kicker === userKicker){
         kicker = cpuKicker;
+        document.getElementById("left").disabled = false;
+        document.getElementById("middle").disabled = false;
+        document.getElementById("right").disabled = false;
         gameState.innerHTML = "It's your turn to save"
         gameImg.src="assets/images/cpu-ready.png";
     }else if (kicker === cpuKicker){
         kicker = userKicker;
+        document.getElementById("left").disabled = false;
+        document.getElementById("middle").disabled = false;
+        document.getElementById("right").disabled = false;
         gameState.innerHTML = "It's your turn to kick"
         gameImg.src="assets/images/user-ready.png";
     }
@@ -108,7 +117,7 @@ function checkWinner() {
         gameState.innerHTML = "COMPUTER WINS!"
         endGame();
     } else {
-        setTimeout(changeKicker, 2000);
+        setTimeout(changeKicker, 1500);
     }
 }
 
