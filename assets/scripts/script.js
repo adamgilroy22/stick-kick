@@ -11,6 +11,7 @@ let cpuDirection;
 let userGoals = 0;
 let cpuGoals = 0;
 let kicker = userKicker;
+let gameImg = document.getElementById("game-image");
 
 
 /**
@@ -50,25 +51,29 @@ function generateCpuDirection() {
  * change main image to reflect outcome and add result to scoreboard
  */
 function checkOutcome() {
+    
     let outcome = "";
+    
+    const userPlayImg = `assets/images/user-${userDirection}-cpu-${cpuDirection}.png`;
+    const cpuPlayImg = `assets/images/cpu-${cpuDirection}-user-${userDirection}.png`;
 
     if (kicker === userKicker) {
         if (userDirection === cpuDirection){
-            document.getElementById("game-image").src=`assets/images/user-${userDirection}-cpu-${cpuDirection}.png`;
+            gameImg.src = userPlayImg;
             outcome = `You kicked ${userDirection} and CPU dived ${cpuDirection}. SAVED!`;
         } else {
             userGoals++;
-            document.getElementById("game-image").src=`assets/images/user-${userDirection}-cpu-${cpuDirection}.png`;
+            gameImg.src = userPlayImg;
             outcome = `You kicked ${userDirection} and CPU dived ${cpuDirection}. GOAL!`;
             userScore.innerHTML = userGoals;
         }
     } else if (kicker === cpuKicker) {
         if (cpuDirection === userDirection){
-            document.getElementById("game-image").src=`assets/images/cpu-${cpuDirection}-user-${userDirection}.png`;
+            gameImg.src = cpuPlayImg;
             outcome = `CPU kicked ${cpuDirection} and You dived ${userDirection}. SAVED!`;
         } else {
             cpuGoals++;
-            document.getElementById("game-image").src=`assets/images/cpu-${cpuDirection}-user-${userDirection}.png`;
+            gameImg.src = cpuPlayImg;
             outcome = `CPU kicked ${cpuDirection} and You dived ${userDirection}. GOAL!`;
             cpuScore.innerHTML = cpuGoals;
         }
