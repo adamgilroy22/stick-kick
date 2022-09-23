@@ -28,3 +28,18 @@ header h1 {
     height: auto;
     width: auto;
 }
+
+/* Buttons */
+button {
+    font-family: 'Mali', cursive;
+    text-transform: uppercase;  
+}
+
+/* Media Queries */
+/* 770px wide and below */
+@media screen and (max-width: 770px) {
+    .game-area {
+        width: 100%;
+    }
+
+}
