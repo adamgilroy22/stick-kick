@@ -108,7 +108,7 @@ function checkWinner() {
         gameState.innerHTML = "COMPUTER WINS!"
         endGame();
     } else {
-        setTimeout(changeKicker, 1000);
+        setTimeout(changeKicker, 2000);
     }
 }
 
