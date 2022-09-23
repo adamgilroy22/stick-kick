@@ -23,6 +23,7 @@ controlButtons.forEach(button => button.addEventListener("click", () => {
     userDirection = button.textContent;
     generateCpuDirection();
     kickOutcome.textContent = checkOutcome();
+    setTimeout(changeKicker, 1000);
     checkWinner();
 
 }));
@@ -78,7 +79,7 @@ function checkOutcome() {
             cpuScore.innerHTML = cpuGoals;
         }
     } 
-    setTimeout(changeKicker, 1500);
+    
     return outcome;
 
 }
