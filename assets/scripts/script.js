@@ -23,7 +23,6 @@ controlButtons.forEach(button => button.addEventListener("click", () => {
     userDirection = button.textContent;
     generateCpuDirection();
     kickOutcome.textContent = checkOutcome();
-    setTimeout(changeKicker, 1000);
     checkWinner();
 
 }));
@@ -106,10 +105,11 @@ function checkWinner() {
     if (userGoals === 5 && cpuGoals < 5){
         gameState.innerHTML = "YOU WIN!"
         endGame();
-    }
-    if (userGoals < 5 && cpuGoals === 5){
+    } else if (userGoals < 5 && cpuGoals === 5){
         gameState.innerHTML = "COMPUTER WINS!"
         endGame();
+    } else {
+        setTimeout(changeKicker, 1000);
     }
 }
 
