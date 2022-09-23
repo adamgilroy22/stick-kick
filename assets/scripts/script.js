@@ -33,13 +33,13 @@ function generateCpuDirection() {
 
     switch(cpuChoice){
         case 1:
-            cpuDirection = 'Left';
+            cpuDirection = 'left';
             break;
         case 2:
-            cpuDirection = 'Middle';
+            cpuDirection = 'middle';
             break;
         case 3:
-            cpuDirection = 'Right';
+            cpuDirection = 'right';
             break;
     }
 }
@@ -53,17 +53,21 @@ function checkOutcome() {
 
     if (kicker === userKicker) {
         if (userDirection === cpuDirection){
+            document.getElementById("game-image").src=`assets/images/user-${userDirection}-cpu-${cpuDirection}.png`;
             outcome = `You kicked ${userDirection} and CPU dived ${cpuDirection}. SAVED!`;
         } else {
             userGoals++;
+            document.getElementById("game-image").src=`assets/images/user-${userDirection}-cpu-${cpuDirection}.png`;
             outcome = `You kicked ${userDirection} and CPU dived ${cpuDirection}. GOAL!`;
             userScore.innerHTML = userGoals;
         }
     } else if (kicker === cpuKicker) {
         if (cpuDirection === userDirection){
+            document.getElementById("game-image").src=`assets/images/cpu-${cpuDirection}-user-${userDirection}.png`;
             outcome = `CPU kicked ${cpuDirection} and You dived ${userDirection}. SAVED!`;
         } else {
             cpuGoals++;
+            document.getElementById("game-image").src=`assets/images/cpu-${cpuDirection}-user-${userDirection}.png`;
             outcome = `CPU kicked ${cpuDirection} and You dived ${userDirection}. GOAL!`;
             cpuScore.innerHTML = cpuGoals;
         }
@@ -80,9 +84,11 @@ function changeKicker() {
     if (kicker === userKicker){
         kicker = cpuKicker;
         gameState.innerHTML = "It's your turn to save"
+       // document.getElementById("game-image").src="assets/images/cpu-ready.png";
     }else if (kicker === cpuKicker){
         kicker = userKicker;
         gameState.innerHTML = "It's your turn to kick"
+       // document.getElementById("game-image").src="assets/images/user-ready.png";
     }
 }
 
