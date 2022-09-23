@@ -1,3 +1,4 @@
+/* jshint esversion: 11 */
 const kickOutcome = document.querySelector("#kick-outcome");
 const controlButtons = document.querySelectorAll(".control-button");
 const gameState = document.querySelector("#gameState");
@@ -9,7 +10,7 @@ let userDirection;
 let cpuDirection;
 let userGoals = 0;
 let cpuGoals = 0;
-var kicker = userKicker;
+let kicker = userKicker;
 
 
 /**
@@ -46,7 +47,7 @@ function generateCpuDirection() {
 
 /**
  * Check both user and cpu choices and determine if it's a goal or a save
- * and add to scoreboard
+ * change main image to reflect outcome and add result to scoreboard
  */
 function checkOutcome() {
     let outcome = "";

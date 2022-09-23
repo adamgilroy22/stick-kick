@@ -17,15 +17,18 @@
     </header>
 
     <!-- Game Area -->
-    <div class="game-area">
+    <main class="game-area">
     
         <!-- Scoreboard -->
-        <div class="score-board">
+        <section class="score-board">
             <h2>YOU <span id="user-score">0</span> - <span id="cpu-score">0</span> CPU</h2>
-        </div>
+            
+            <!-- Kick Outcome -->
+            <h3 id="kick-outcome"></h3>
+        </section>
 
         <!-- Settings -->
-        <div class="game-settings">
+        <section class="game-settings">
             <button class="settings-button">
                 Music
             </button>
@@ -37,34 +40,27 @@
             <button class="settings-button">
                 Instructions
             </button>
-        </div>
+        </section>
 
         <!-- Game Image -->
-        <div class="game-image-area">
+        <section class="game-image-area">
             <img id="game-image" src="assets/images/user-ready.png" alt="">
-        </div>
+        </section>
 
         <!-- Game Prompts -->
-        <div class="prompt">
-            <h3><span id="gameState">It's your turn to kick</span></h3>
-        </div>
+        <h3><span id="gameState">It's your turn to kick</span></h3>
 
         <!-- Game Controls -->
-        <div class="controls">
+        <section class="controls">
             <button class="control-button" id="left">left</button>
 
             <button class="control-button" id="middle">middle</button>
 
             <button class="control-button" id="right">right</button>
-        </div>
-
-        <!-- Kick Outcome -->
-        <div>
-            <h3 id="kick-outcome"></h3>
-        </div>
+        </section>
         
 
-    </div>
+    </main>
 
     <!-- Footer -->
     <footer>
