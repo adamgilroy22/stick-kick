@@ -77,8 +77,8 @@ function checkOutcome() {
             outcome = `CPU kicked ${cpuDirection} and You dived ${userDirection}. GOAL!`;
             cpuScore.innerHTML = cpuGoals;
         }
-    }  
-    changeKicker();
+    } 
+    setTimeout(changeKicker, 1500);
     return outcome;
 
 }
@@ -90,11 +90,11 @@ function changeKicker() {
     if (kicker === userKicker){
         kicker = cpuKicker;
         gameState.innerHTML = "It's your turn to save"
-       // document.getElementById("game-image").src="assets/images/cpu-ready.png";
+        gameImg.src="assets/images/cpu-ready.png";
     }else if (kicker === cpuKicker){
         kicker = userKicker;
         gameState.innerHTML = "It's your turn to kick"
-       // document.getElementById("game-image").src="assets/images/user-ready.png";
+        gameImg.src="assets/images/user-ready.png";
     }
 }
 
