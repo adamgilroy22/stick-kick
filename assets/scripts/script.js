@@ -12,7 +12,6 @@ let cpuGoals = 0;
 let kicker = userKicker;
 let gameImg = document.getElementById("game-image");
 
-
 /**
  * Take the user's direction choice and assign the value to player
  * and call the computer choice function
