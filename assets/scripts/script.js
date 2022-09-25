@@ -11,6 +11,27 @@ let userGoals = 0;
 let cpuGoals = 0;
 let kicker = userKicker;
 let gameImg = document.getElementById("game-image");
+let modalButton = document.getElementById("modal-button");
+let modal = document.querySelector(".modal");
+let closeButton = document.querySelector(".close-button");
+
+/**
+ * Modal box settings
+ */
+modalButton.onclick = function () {
+    modal.style.display = "block";
+}
+
+closeButton.onclick = function () {
+    modal.style.display = "none"
+}
+
+window.onclick = function(e){
+    if(e.target == modal){
+      modal.style.display = "none"
+    }
+  }
+
 
 /**
  * Take the user's direction choice and assign the value to player

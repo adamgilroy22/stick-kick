@@ -13,6 +13,7 @@ header h1 {
 
 /* Modal instructions box */
 .modal {
+    display: block;
     position: fixed; 
     padding-top: 100px;
     left: 0; 
