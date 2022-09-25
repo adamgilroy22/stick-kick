@@ -8,12 +8,12 @@ body {
 
 /* Header */
 header h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 
 /* Modal instructions box */
 .modal {
-    display: block;
+    display: none;
     position: fixed; 
     padding-top: 100px;
     left: 0; 
@@ -32,6 +32,11 @@ header h1 {
     width: 66%;
     font-size: 1.5rem;
   }
+
+/* Game Settings Area */
+.game-settings {
+    padding: 10px;
+}
 
 /* Main game area */
 .game-area {
@@ -54,7 +59,16 @@ header h1 {
 /* Buttons */
 button {
     font-family: 'Mali', cursive;
-    text-transform: uppercase;  
+    text-transform: uppercase; 
+    border: 2px solid #000000;
+    padding: 1rem;
+    background-color: #fafafa;
+    border-radius: 6px;
+}
+
+button:hover {
+    color: #fafafa;
+    background-color: #000000;
 }
 
 /* Media Queries */
