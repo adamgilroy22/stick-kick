@@ -39,10 +39,13 @@ I have tested the site on multiple devices such as my desktop monitor, Dell 2-in
 ### __Validator Testing__ 
 
 - __HTML__
-    - No errors were returned after passing through the official [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fadamgilroy22.github.io%2Fhappy-dog-cafe%2F)
+    - No errors were returned after passing through the official [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fadamgilroy22.github.io%2Fstick-kick%2F)
 
 - __CSS__
-    - No errors were returned through the official [(Jigsaw) validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fadamgilroy22.github.io%2Fhappy-dog-cafe)
+    - No errors were returned through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fadamgilroy22.github.io%2Fstick-kick%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+- __JavaScript__
+    - No errors were returned after passing my code through [JSHint](https://jshint.com/)
 
 ### __Performance Testing__
 
