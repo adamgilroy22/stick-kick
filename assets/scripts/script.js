@@ -41,8 +41,10 @@ window.onclick = function(e){
     if (audio.paused){
         audio.volume = 0.2;
         audio.play();
+        musicButton.innerHTML = "Stop Music"
     } else {
         audio.pause();
+        musicButton.innerHTML = "Play Music"
     }
   });
 
