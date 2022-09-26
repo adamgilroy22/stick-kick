@@ -9,6 +9,7 @@
 ### __Colour Scheme__
 
 ### __Typography__
+I used [Google Fonts](https://fonts.google.com/) to select and import the font Mali for all site text.
 
 ## __Features__ 
 
