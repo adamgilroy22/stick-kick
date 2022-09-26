@@ -3,6 +3,8 @@ const controlButtons = document.querySelectorAll(".control-button");
 const gameState = document.querySelector("#gameState");
 const userScore = document.getElementById('user-score');
 const cpuScore = document.getElementById('cpu-score');
+const musicButton = document.getElementById('music-button');
+const audio = document.querySelector("audio");
 let userKicker = 0;
 let cpuKicker = 1;
 let userDirection;
@@ -31,6 +33,18 @@ window.onclick = function(e){
       modal.style.display = "none"
     }
   }
+
+  /**
+   * Music control settings
+   */
+  musicButton.addEventListener("click", () => {
+    if (audio.paused){
+        audio.volume = 0.2;
+        audio.play();
+    } else {
+        audio.pause();
+    }
+  });
 
 
 /**
