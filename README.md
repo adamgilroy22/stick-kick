@@ -7,9 +7,10 @@
 ### __Wireframes__
 
 ### __Colour Scheme__
+I used [Coolors.co](https://coolors.co/000000-fafafa-008037-03989e-737373-004aad-ff1616) to choose a colour scheme that would make the site content look simple and make the game images look like a soccer pitch with both the user and computer players easily distinguishable.
 
 ### __Typography__
-I used [Google Fonts](https://fonts.google.com/) to select and import the font Mali for all site text.
+I used [Google Fonts](https://fonts.google.com/) to select and import the Mali font for all site text.
 
 ## __Features__ 
 
