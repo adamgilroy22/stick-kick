@@ -82,4 +82,8 @@ button:hover {
         width: 100%;
     }
 
+    .modal-content {
+        font-size: 1.2rem;
+      }
+
 }
