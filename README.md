@@ -24,6 +24,7 @@ As the site is a single-serving site, there is only one page. I opted to keep th
 - As a user, I want to be able to control the game using clearly labelled buttons
 
 ### __Wireframes__
+Before writing any code, I used Balsamiq to create wireframes for the page
 
 ### __Colour Scheme__
 I used [Coolors.co](https://coolors.co/000000-fafafa-008037-03989e-737373-004aad-ff1616) to choose a colour scheme that would make the site content look simple and make the game images look like a soccer pitch with both the user and computer players easily distinguishable.
