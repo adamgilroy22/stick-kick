@@ -6,8 +6,22 @@ The aim of this project is to build an interactive front-end site which responds
 [Live link to website](https://adamgilroy22.github.io/stick-kick/)
 
 ## __UX & Design__
+As the site is a single-serving site, there is only one page. I opted to keep the design of the page simple and clean so as it doesn't distract from the main game section of the page.
 
 ### __User Stories__
+- As a user, I want to be able to see the site name clearly at the top of the page
+
+- As a user, I want to be able to toggle the game's music on or off
+
+- As a user, I want to be able to access instructions on how to play the game and easily exit the instructions without disrupting the game
+
+- As a user, I want to be able to reset the game at any point
+
+- As a user, I want to be able to clearly see the game and the current state (See if I'm kicking or saving and see if I scored a goal or saved a shot)
+
+- As a user, I want to be able to see the current score of the game
+
+- As a user, I want to be able to control the game using clearly labelled buttons
 
 ### __Wireframes__
 
