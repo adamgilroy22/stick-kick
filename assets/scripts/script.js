@@ -22,17 +22,17 @@ let closeButton = document.querySelector(".close-button");
  */
 modalButton.onclick = function () {
     modal.style.display = "block";
-}
+};
 
 closeButton.onclick = function () {
-    modal.style.display = "none"
-}
+    modal.style.display = "none";
+};
 
 window.onclick = function(e){
     if(e.target == modal){
-      modal.style.display = "none"
+      modal.style.display = "none";
     }
-  }
+  };
 
   /**
    * Music control settings
@@ -41,10 +41,10 @@ window.onclick = function(e){
     if (audio.paused){
         audio.volume = 0.2;
         audio.play();
-        musicButton.innerHTML = "Stop Music"
+        musicButton.innerHTML = "Stop Music";
     } else {
         audio.pause();
-        musicButton.innerHTML = "Play Music"
+        musicButton.innerHTML = "Play Music";
     }
   });
 
@@ -130,14 +130,14 @@ function changeKicker() {
         document.getElementById("left").disabled = false;
         document.getElementById("middle").disabled = false;
         document.getElementById("right").disabled = false;
-        gameState.innerHTML = "It's your turn to save"
+        gameState.innerHTML = "It's your turn to save";
         gameImg.src="assets/images/cpu-ready.png";
     }else if (kicker === cpuKicker){
         kicker = userKicker;
         document.getElementById("left").disabled = false;
         document.getElementById("middle").disabled = false;
         document.getElementById("right").disabled = false;
-        gameState.innerHTML = "It's your turn to kick"
+        gameState.innerHTML = "It's your turn to kick";
         gameImg.src="assets/images/user-ready.png";
     }
 }
@@ -147,10 +147,10 @@ function changeKicker() {
  */
 function checkWinner() {
     if (userGoals === 5 && cpuGoals < 5){
-        gameState.innerHTML = "YOU WIN!"
+        gameState.innerHTML = "YOU WIN!";
         endGame();
     } else if (userGoals < 5 && cpuGoals === 5){
-        gameState.innerHTML = "COMPUTER WINS!"
+        gameState.innerHTML = "COMPUTER WINS!";
         endGame();
     } else {
         setTimeout(changeKicker, 1500);
@@ -167,4 +167,3 @@ function endGame() {
        document.getElementById("right").disabled = true;
     
 }
-
