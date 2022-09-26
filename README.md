@@ -1,4 +1,9 @@
 # __Stick Kick - Portfolio Project 2__
+This is a website for Stick Kick, a penalty kick game where users compete against the computer in a game of chance alternating between kicking and saving with the first to 5 goals winning.
+
+The aim of this project is to build an interactive front-end site which responds to the user's actions and altering the way the site displays information to achieve the user's goals.
+
+[Live link to website](https://adamgilroy22.github.io/stick-kick/)
 
 ## __UX & Design__
 
