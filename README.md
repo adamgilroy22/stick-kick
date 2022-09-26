@@ -34,6 +34,38 @@ I used [Google Fonts](https://fonts.google.com/) to select and import the Mali f
 
 ## __Features__ 
 
+- __Logo__
+    - The logo appears at the top of the page and shows the user the name of the game
+
+- __Favicon__
+    - The favicon on the browser tab contains a simple picture of a stick man kicking a football and shows the user what the game is about
+
+- __Game Settings Buttons__
+    - __Play/Stop Music__
+        - The music control button allows the user to toggle the game's music. The music is off by default and the text on the button changes depending if the music is muted or not.
+    - __Instructions__
+        - The instructions button allows the user to see the game rules and instructions on how to play.
+    - __Reset__
+        - The reset button allows the user to reset the game at any point while playing.
+
+- __Instructions Modal Box__
+    - The instructions modal box appears when the user clicks on the instructions button and gives the user a rundown on the game's rules and controls. The box can be closed by either clicking the "Play Game" button at the bottom or clicking anywhere outside of the box without disrupting the game.
+
+- __Game Image Area__
+    - The game image area gives the user a visual representation of the current game state. After both the user and computer directions have been logged, the image displays both the ball direction and the goalkeeper direction for a few seconds before showing whoever is next up to kick and save.
+
+- __Scoreboard__
+    - The scoreboard displays the current score of the game clearly indicating the user's and computer's score.
+
+- __Game Prompts__
+    - The game prompt area lets the user know if they are kicking or saving. Once the user selects their direction with the control buttons, it prints both the user's and computer's choices along with if it's a goal or a save. Once either the user or computer reaches 5 goals, it displays the winner.
+
+- __Game Controls__
+    - The game control buttons allows the user to choose either left, middle, or right when both kicking and saving.
+
+- __Footer__
+    - The footer displays that I developed the site, a link to my Github that opens in a new tab, along with the project the site is for.
+
 ### __Features Left to Implement__
 
 ### __Technologies Used__
