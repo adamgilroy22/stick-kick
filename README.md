@@ -67,6 +67,14 @@ I used [Google Fonts](https://fonts.google.com/) to select and import the Mali f
     - The footer displays that I developed the site, a link to my Github that opens in a new tab, along with the project the site is for.
 
 ### __Features Left to Implement__
+- __More Direction Options__
+    - I plan to add extra options to the controls which allows the user to choose top-left, top-middle, top-right, bottom-left, bottom-middle, and bottom-right.
+
+- __More Realistic Outcomes__
+    - I plan to tweak the game's logic to make it more true to a real life penalty shootout where it begins as a best out of 5 and if both sides are level after 5 kicks then it goes to sudden-death.
+
+- __Custom Characters__
+    - I plan to add customization to the characters so the player can choose what colour both their character and the computer's character are.
 
 ### __Technologies Used__
 The following is a list of the technologies I used on this project.
