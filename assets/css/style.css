@@ -80,7 +80,7 @@ button:hover {
 /* Media Queries */
 
 /* 1000px wide and below */
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1200px){
     .game-image-area {
         width: 66%;
         margin: auto;
