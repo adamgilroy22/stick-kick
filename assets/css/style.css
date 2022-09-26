@@ -28,7 +28,6 @@ header h1 {
     background-color: white;
     border: 5px solid #000000;
     height: auto;
-    max-height: 100%;
     padding: 20px; 
     margin: auto; 
     width: 66%;
@@ -82,8 +81,13 @@ button:hover {
         width: 100%;
     }
 
+    .modal {
+        padding: 1px;
+    }
+
     .modal-content {
         font-size: 1.2rem;
+        width: 80%;
       }
 
 }
