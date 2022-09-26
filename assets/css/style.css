@@ -78,10 +78,24 @@ button:hover {
 }
 
 /* Media Queries */
+
+/* 1000px wide and below */
+@media screen and (max-width: 1000px){
+    .game-image-area {
+        width: 66%;
+        margin: auto;
+    }
+}
+
 /* 770px wide and below */
 @media screen and (max-width: 770px) {
     .game-area {
         width: 100%;
+    }
+
+    .game-image-area {
+        width: auto;
+        max-width: 100%;
     }
 
     .game-settings {
