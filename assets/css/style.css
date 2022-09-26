@@ -79,10 +79,10 @@ button:hover {
 
 /* Media Queries */
 
-/* 1000px wide and below */
-@media screen and (max-width: 1200px){
+/* 1400px wide and below */
+@media screen and (max-width: 1400px){
     .game-image-area {
-        width: 66%;
+        width: 50%;
         margin: auto;
     }
 }
