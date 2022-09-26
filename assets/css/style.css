@@ -85,6 +85,10 @@ button:hover {
         width: 50%;
         margin: auto;
     }
+
+    button {
+        font-size: 1rem;
+    }
 }
 
 /* 770px wide and below */
