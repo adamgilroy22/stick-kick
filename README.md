@@ -99,6 +99,8 @@ The following is a list of the technologies I used on this project.
 
 ## __Testing__
 
+View testing [here](TESTING.md)
+
 ## Deployment
 
 The site was deployed to GitHub pages. The steps to deploy are as follows: 
