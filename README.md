@@ -11,22 +11,22 @@ The aim of this project is to build an interactive front-end site which responds
 As the site is a single-serving site, there is only one page. I opted to keep the design of the page simple and clean so as it doesn't distract from the main game section of the page.
 
 ### __User Stories__
-- As a user, I want to be able to see the site name clearly at the top of the page
+- As a user, I want to be able to see the site name clearly at the top of the page.
 
-- As a user, I want to be able to toggle the game's music on or off
+- As a user, I want to be able to toggle the game's music on or off.
 
-- As a user, I want to be able to access instructions on how to play the game and easily exit the instructions without disrupting the game
+- As a user, I want to be able to access instructions on how to play the game and easily exit the instructions without disrupting the game.
 
-- As a user, I want to be able to reset the game at any point
+- As a user, I want to be able to reset the game at any point.
 
-- As a user, I want to be able to clearly see the game and the current state (See if I'm kicking or saving and see if I scored a goal or saved a shot)
+- As a user, I want to be able to clearly see the game and the current state (See if I'm kicking or saving and see if I scored a goal or saved a shot).
 
-- As a user, I want to be able to see the current score of the game
+- As a user, I want to be able to see the current score of the game.
 
-- As a user, I want to be able to control the game using clearly labelled buttons
+- As a user, I want to be able to control the game using clearly labelled buttons.
 
 ### __Wireframes__
-Before writing any code, I used Balsamiq to create wireframes for the page
+Before writing any code, I used Balsamiq to create wireframes for the page.
 
 ![Homepage wireframe](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/wireframes/homepage-wireframe.png)
 
@@ -56,20 +56,25 @@ I used [Google Fonts](https://fonts.google.com/) to select and import the Mali f
 ![Favicon](https://github.com/adamgilroy22/stick-kick/blob/main/assets/images/favicon/favicon.png)
 
 - __Game Settings Buttons__
+    - The game settings buttons allow the user to control music, view instructions, and reset the game.
+
 ![Game settings buttons](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/game-settings-buttons.png)
-    - __Play/Stop Music__
-        - The music control button allows the user to toggle the game's music. The music is off by default and the text on the button changes depending if the music is muted or not.
+    
+- __Play/Stop Music__
+    - The music control button allows the user to toggle the game's music. The music is off by default and the text on the button changes depending if the music is muted or not.
 
 ![Play music](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/play-music.png)
 
 ![Stop music](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/stop-music.png)
 
-    - __Instructions__
-        - The instructions button allows the user to see the game rules and instructions on how to play.   
+- __Instructions__
+     - The instructions button allows the user to see the game rules and instructions on how to play.
+
 ![Instructions](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/instructions.png)
 
-    - __Reset__
-        - The reset button allows the user to reset the game at any point while playing.
+- __Reset__
+    - The reset button allows the user to reset the game at any point while playing.
+
 ![Reset](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/reset.png)
 
 - __Instructions Modal Box__
@@ -143,16 +148,16 @@ The following is a list of the technologies I used on this project.
 
 ## __Testing__
 
-View testing [here](TESTING.md)
+View testing [here.](TESTING.md)
 
 ## Deployment
 
 The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the [GitHub repository](https://github.com/adamgilroy22/stick-kick), navigate to the Settings tab 
+  - In the [GitHub repository](https://github.com/adamgilroy22/stick-kick), navigate to the Settings tab. 
   - From the source section drop-down menu, select the **Main** Branch, then click "Save".
   - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found [here](https://adamgilroy22.github.io/stick-kick/)
+The live link can be found [here.](https://adamgilroy22.github.io/stick-kick/)
 
 ### Local Deployment
 
@@ -168,20 +173,20 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 
 ### __Code__
 
-- Code for the ability to toggle music was inspired by [FreeCodeCamp](https://forum.freecodecamp.org/t/how-to-play-mp3-in-the-background-music-automatically/308554)
+- Code for the ability to toggle music was inspired by [FreeCodeCamp.](https://forum.freecodecamp.org/t/how-to-play-mp3-in-the-background-music-automatically/308554)
 
-- Code for the modal box was inspired by [W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp)
+- Code for the modal box was inspired by [W3Schools.](https://www.w3schools.com/howto/howto_css_modals.asp)
 
 ### __Content__
 
-- All website text content was created and written by me
-- The Mali font used on the site was imported from [Google Fonts](https://fonts.google.com/)
+- All website text content was created and written by me.
+- The Mali font used on the site was imported from [Google Fonts.](https://fonts.google.com/)
 
 ### __Design__
 
-- Wireframes were made using [Balsamiq](https://balsamiq.com/)
-- Colours were chosen and checked for readability through [Webaim](https://webaim.org/resources/contrastchecker/)
+- Wireframes were made using [Balsamiq.](https://balsamiq.com/)
+- Colours were chosen and checked for readability through [Webaim.](https://webaim.org/resources/contrastchecker/)
 
 ### __Media__
 
-- Game images and Favicon were designed by me with [Canva](https://www.canva.com/)
+- Game images and Favicon were designed by me with [Canva.](https://www.canva.com/)
