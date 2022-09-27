@@ -111,7 +111,7 @@ I used [Google Fonts](https://fonts.google.com/) to select and import the Mali f
     ![Game controls](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/game-controls.png)
 
 - __Footer__
-    - The footer displays that I developed the site, a link to my Github that opens in a new tab, along with the project the site is for.
+    - The footer displays that I developed the site, a link to my Github that opens in a new tab, along with the project the page is for.
     
     ![Footer](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/footer.png)
 
