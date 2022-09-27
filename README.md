@@ -12,17 +12,11 @@ As the site is a single-serving site, there is only one page. I opted to keep th
 
 ### __User Stories__
 - As a user, I want to be able to see the site name clearly at the top of the page.
-
 - As a user, I want to be able to toggle the game's music on or off.
-
 - As a user, I want to be able to access instructions on how to play the game and easily exit the instructions without disrupting the game.
-
 - As a user, I want to be able to reset the game at any point.
-
 - As a user, I want to be able to clearly see the game and the current state (See if I'm kicking or saving and see if I scored a goal or saved a shot).
-
 - As a user, I want to be able to see the current score of the game.
-
 - As a user, I want to be able to control the game using clearly labelled buttons.
 
 ### __Wireframes__
@@ -189,7 +183,7 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 ### __Media__
 
 - Game images and Favicon were designed by me with [Canva.](https://www.canva.com/)
-- Background music is from BBC's Match of the Day and mp3 was downloaded from [YouTube](https://www.youtube.com/watch?v=V1VscTjwlco&ab_channel=SportsTVThemeTunes)
+- Background music is from BBC's Match of the Day and mp3 was downloaded from [YouTube.](https://www.youtube.com/watch?v=V1VscTjwlco&ab_channel=SportsTVThemeTunes)
 
 ## __Acknowledgements__
 
