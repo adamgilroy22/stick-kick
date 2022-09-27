@@ -26,7 +26,7 @@ header h1 {
   }
   .modal-content {
     position: relative; 
-    background-color: white;
+    background-color: #fafafa;
     border: 5px solid #000000;
     height: auto;
     padding: 20px; 
@@ -72,6 +72,11 @@ button:hover {
     background-color: #000000;
     cursor: pointer;
 }
+
+/* Footer */
+footer a {
+    color:#000000;
+  }
 
 /* Media Queries */
 
