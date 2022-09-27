@@ -47,51 +47,67 @@ I used [Google Fonts](https://fonts.google.com/) to select and import the Mali f
 
 - __Logo__
     - The logo appears at the top of the page and shows the user the name of the game.
+    
     ![Logo](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/logo.png)
 
 - __Favicon__
     - The favicon on the browser tab contains a simple picture of a stick man kicking a football and shows the user what the game is about.
-    ![Favicon](https://github.com/adamgilroy22/stick-kick/blob/main/assets/images/favicon/favicon.png)
+    
+![Favicon](https://github.com/adamgilroy22/stick-kick/blob/main/assets/images/favicon/favicon.png)
 
 - __Game Settings Buttons__
 ![Game settings buttons](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/game-settings-buttons.png)
     - __Play/Stop Music__
         - The music control button allows the user to toggle the game's music. The music is off by default and the text on the button changes depending if the music is muted or not.
-        ![Play music](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/play-music.png)
-        ![Stop music](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/stop-music.png)
+
+![Play music](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/play-music.png)
+
+![Stop music](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/stop-music.png)
+
     - __Instructions__
-        - The instructions button allows the user to see the game rules and instructions on how to play.
-        ![Instructions](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/instructions.png)
+        - The instructions button allows the user to see the game rules and instructions on how to play.   
+![Instructions](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/instructions.png)
+
     - __Reset__
         - The reset button allows the user to reset the game at any point while playing.
-        ![Reset](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/reset.png)
+![Reset](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/reset.png)
 
 - __Instructions Modal Box__
     - The instructions modal box appears when the user clicks on the instructions button and gives the user a rundown on the game's rules and controls. The box can be closed by either clicking the "Play Game" button at the bottom or clicking anywhere outside of the box without disrupting the game.
+    
     ![Instructions modal box](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/information-modal-box.png)
 
 - __Game Image Area__
     - The game image area gives the user a visual representation of the current game state. After both the user and computer directions have been logged, the image displays both the ball direction and the goalkeeper direction for a few seconds before showing whoever is next up to kick and save.
+    
     ![Game image area states](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/game-states.gif)
 
 - __Scoreboard__
     - The scoreboard displays the current score of the game clearly indicating the user's and computer's score.
+    
     ![Scoreboard at start](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/score-board-1.png)
+    
     ![Scoreboard during game](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/score-board-2.png)
 
 - __Game Prompts__
     - The game prompt area lets the user know if they are kicking or saving. Once the user selects their direction with the control buttons, it prints both the user's and computer's choices along with if it's a goal or a save. Once either the user or computer reaches 5 goals, it displays the winner.
+    
     ![Game prompt for user to kick](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/game-prompt-1.png)
+    
     ![Game prompt after user kick and score](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/game-prompt-2.png)
+    
     ![Game prompt for user to save](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/game-prompt-3.png)
+    
     ![Game prompt at end of game showing user win](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/game-prompt-4.png)
 
 - __Game Controls__
     - The game control buttons allows the user to choose either left, middle, or right when both kicking and saving.
+    
     ![Game controls](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/game-controls.png)
 
 - __Footer__
     - The footer displays that I developed the site, a link to my Github that opens in a new tab, along with the project the site is for.
+    
     ![Footer](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/footer.png)
 
 ### __Features Left to Implement__
