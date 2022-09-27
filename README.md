@@ -190,3 +190,7 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 ### __Media__
 
 - Game images and Favicon were designed by me with [Canva.](https://www.canva.com/)
+
+## __Acknowledgements__
+
+I would like to give special thanks to my mentor, [Time Nelson](https://www.linkedin.com/in/travel-tim-nelson/) for his guidance during the development of this project.
