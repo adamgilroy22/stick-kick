@@ -24,6 +24,7 @@ header h1 {
     background-color: rgba(0, 0, 0, 0.8);
     overflow-y: auto;
   }
+/* Modal text content */
   .modal-content {
     position: relative; 
     background-color: #fafafa;
