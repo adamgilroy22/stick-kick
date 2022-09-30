@@ -2,15 +2,13 @@
 After the site was deployed, I sent the link to family and friends to test it and received positive feedback from all. Nobody had any issues loading the page or navigating the game and its controls.
 
 ### __User Stories Testing__
-- As a user, I want to be able to see the site name clearly at the top of the page.
 
-![Logo](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/logo.png)
+| User Goal | Requirement met | Image |
+| --------- | --------------- | ----- |
+| As a user, I want to be able to see the site name clearly at the top of the page. | Yes | ![Logo](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/logo.png) |
+| As a user, I want to be able to toggle the game's music on or off. | Yes | ![Play music](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/play-music.png)
 
-- As a user, I want to be able to toggle the game's music on or off.
-
-![Play music](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/play-music.png)
-
-![Stop music](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/stop-music.png)
+![Stop music](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/stop-music.png) |
 
 - As a user, I want to be able to access instructions on how to play the game and easily exit the instructions without disrupting the game.
 
