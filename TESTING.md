@@ -91,7 +91,7 @@ I have tested the site on multiple devices such as my desktop monitor, Dell 2-in
 
     ![HTML validation 1](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/html-validation-before.png)
 
-    - I tweaked the HTML to change sections with no headings to divs and ran it through again and this time no errors were returned.
+    - I tweaked the HTML to change sections with no headings to divs and ran it through again and this time no errors were returned. After discussing with my mentor, I changed the divs back to sections as despite the errors, it's better practice to use sections in this case.
 
     ![HTML validation 2](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/html-validation-after.png)
 
