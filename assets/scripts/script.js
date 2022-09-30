@@ -16,6 +16,21 @@ let gameImg = document.getElementById("game-image");
 let modalButton = document.getElementById("modal-button");
 let modal = document.querySelector(".modal");
 let closeButton = document.querySelector(".close-button");
+let resetButton = document.getElementById("reset-button");
+
+/**
+ * Music control settings
+ */
+ musicButton.addEventListener("click", () => {
+    if (audio.paused) {
+        audio.volume = 0.2;
+        audio.play();
+        musicButton.innerHTML = "Stop Music";
+    } else {
+        audio.pause();
+        musicButton.innerHTML = "Play Music";
+    }
+});
 
 /**
  * Modal box settings
@@ -35,17 +50,10 @@ window.addEventListener("click", (e) => {
 });
 
 /**
- * Music control settings
+ * Reset button
  */
-musicButton.addEventListener("click", () => {
-    if (audio.paused) {
-        audio.volume = 0.2;
-        audio.play();
-        musicButton.innerHTML = "Stop Music";
-    } else {
-        audio.pause();
-        musicButton.innerHTML = "Play Music";
-    }
+resetButton.addEventListener("click", () => {
+    history.go(0);
 });
 
 

@@ -170,7 +170,6 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 ### __Code__
 
 - Code for the ability to toggle music was inspired by [FreeCodeCamp.](https://forum.freecodecamp.org/t/how-to-play-mp3-in-the-background-music-automatically/308554)
-- Code for the modal box was inspired by [W3Schools.](https://www.w3schools.com/howto/howto_css_modals.asp)
 
 ### __Content__
 
