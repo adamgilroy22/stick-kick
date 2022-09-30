@@ -21,7 +21,7 @@ let resetButton = document.getElementById("reset-button");
 /**
  * Music control settings
  */
- musicButton.addEventListener("click", () => {
+musicButton.addEventListener("click", () => {
     if (audio.paused) {
         audio.volume = 0.2;
         audio.play();
