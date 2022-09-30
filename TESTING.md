@@ -3,8 +3,8 @@ After the site was deployed, I sent the link to family and friends to test it an
 
 ### __User Stories Testing__
 
-| User Goal | Requirement met | Image |
-| --------- | --------------- | ----- |
+| User Goal | Requirement met | Image(s) |
+| --------- | --------------- | -------- |
 | As a user, I want to be able to see the site name clearly at the top of the page. | Yes | ![Logo](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/logo.png) |
 | As a user, I want to be able to toggle the game's music on or off. | Yes | ![Play music](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/play-music.png) ![Stop music](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/stop-music.png) |
 | As a user, I want to be able to access instructions on how to play the game and easily exit the instructions without disrupting the game. | Yes | ![Instructions](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/instructions.png) ![Instructions modal box](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/information-modal-box.png) |
@@ -25,33 +25,12 @@ After publishing the site through Github pages, I have tested it on Chrome, Fire
 ### __Compatability and Responsiveness Testing__
 I have tested the site on multiple devices such as my desktop monitor, Dell 2-in-1 16" laptop, OnePlus 8t Android smartphone, Apple iPhone and Apple iPad. The site loaded and ran smoothly on all devices and content adjusted as expected for each screen size. The only issue to arise was the button text appearing blue on iPhone.
 
-- Dell Laptop
-
-![Laptop test](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/laptop-test.png)
-
-- OnePlus 8t Smartphone
-
-![Android test 1](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/android-test-1.jpg)
-
-![Android test 2](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/android-test-2.jpg)
-
-![Android test 3](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/android-test-3.jpg)
-
-![Android test 4](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/android-test-4.jpg)
-
-![Android test 5](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/android-test-5.jpg)
-
-![Android test 6](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/android-test-6.jpg)
-
-- Apple iPhone
-
-![iPhone test 1](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/iphone-test-1.jpg)
-
-![iPhone test 2](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/iphone-test-2.jpg)
-
-- Apple iPad
-
-![iPad test](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/ipad-test.png)
+| Device | Image(s) |
+| ------ | -------- |
+| Dell Laptop | ![Laptop test](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/laptop-test.png) |
+| OnePlus 8t Smartphone | ![Android test 1](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/android-test-1.jpg) ![Android test 2](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/android-test-2.jpg) ![Android test 3](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/android-test-3.jpg) ![Android test 4](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/android-test-4.jpg) ![Android test 5](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/android-test-5.jpg) ![Android test 6](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/android-test-6.jpg) |
+| Apple iPhone |![iPhone test 1](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/iphone-test-1.jpg) ![iPhone test 2](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/iphone-test-2.jpg) |
+| Apple iPad | ![iPad test](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/ipad-test.png) |
 
 ### __Validator Testing__ 
 
