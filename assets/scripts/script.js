@@ -53,7 +53,7 @@ window.addEventListener("click", (e) => {
  * Reset button
  */
 resetButton.addEventListener("click", () => {
-    history.go(0);
+    location.reload();
 });
 
 
