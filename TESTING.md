@@ -28,7 +28,7 @@ I have tested the site on multiple devices such as my desktop monitor, Dell 2-in
 | Device | Image(s) |
 | ------ | -------- |
 | Dell Laptop | ![Laptop test](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/laptop-test.png) |
-| OnePlus 8t Smartphone | ![Android test 1](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/android-test-1.jpg) ![Android test 2](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/android-test-2.jpg) ![Android test 3](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/android-test-3.jpg) ![Android test 4](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/android-test-4.jpg) ![Android test 5](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/android-test-5.jpg) ![Android test 6](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/android-test-6.jpg) |
+| OnePlus 8t Smartphone | ![Android test 1](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/android-test-1.png) ![Android test 2](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/android-test-2.png) ![Android test 3](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/android-test-3.png) |
 | Apple iPhone |![iPhone test 1](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/iphone-test-1.jpg) ![iPhone test 2](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/iphone-test-2.jpg) |
 | Apple iPad | ![iPad test](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/ipad-test.png) |
 
