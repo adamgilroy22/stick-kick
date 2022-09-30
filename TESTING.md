@@ -1,5 +1,5 @@
 ### __User Testing__
-After the site was deployed, I sent the link to family and friends to test it and received positive feedback from all. Nobody had any issues loading the page or navigating the game and its controls.
+After the site was deployed, I sent the link to family and friends to test it and received positive feedback from all. Nobody had any issues loading the page or navigating the game and its controls. You can see the screenshots of these tests [here.](#compatability-and-responsiveness-testing)
 
 ### __User Stories Testing__
 
