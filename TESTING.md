@@ -7,32 +7,11 @@ After the site was deployed, I sent the link to family and friends to test it an
 | --------- | --------------- | ----- |
 | As a user, I want to be able to see the site name clearly at the top of the page. | Yes | ![Logo](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/logo.png) |
 | As a user, I want to be able to toggle the game's music on or off. | Yes | ![Play music](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/play-music.png) ![Stop music](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/stop-music.png) |
-
-- As a user, I want to be able to access instructions on how to play the game and easily exit the instructions without disrupting the game.
-
-![Instructions](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/instructions.png)
-
-![Instructions modal box](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/information-modal-box.png)
-
-- As a user, I want to be able to reset the game at any point.
-
-![Reset](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/reset.png)
-
-- As a user, I want to be able to clearly see the game and the current state (See if I'm kicking or saving and see if I scored a goal or saved a shot).
-
-![Game prompt for user to kick](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/game-prompt-1.png)
-
-![Game prompt after user kick and score](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/game-prompt-2.png)
-
-![Game prompt for user to save](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/game-prompt-3.png)
-
-- As a user, I want to be able to see the current score of the game.
-
-![Scoreboard during game](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/score-board-2.png)
-
-- As a user, I want to be able to control the game using clearly labelled buttons.
-
-![Game controls](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/game-controls.png)
+| As a user, I want to be able to access instructions on how to play the game and easily exit the instructions without disrupting the game. | Yes | ![Instructions](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/instructions.png) ![Instructions modal box](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/information-modal-box.png) |
+| As a user, I want to be able to reset the game at any point. | Yes | ![Reset](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/reset.png) |
+| As a user, I want to be able to clearly see the game and the current state (See if I'm kicking or saving and see if I scored a goal or saved a shot). | Yes | ![Game prompt for user to kick](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/game-prompt-1.png) ![Game prompt after user kick and score](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/game-prompt-2.png) ![Game prompt for user to save](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/game-prompt-3.png) |
+| As a user, I want to be able to see the current score of the game. | Yes | ![Scoreboard during game](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/score-board-2.png) |
+| As a user, I want to be able to control the game using clearly labelled buttons. | Yes | ![Game controls](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/game-controls.png) |
 
 ### __Cross-browser Testing__
 After publishing the site through Github pages, I have tested it on Chrome, Firefox and Edge. The site has loaded perfectly and had no issues across all browsers.
