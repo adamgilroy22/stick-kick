@@ -35,11 +35,10 @@ I have tested the site on multiple devices such as my desktop monitor, Dell 2-in
 ### __Validator Testing__ 
 
 - __HTML__
-    | A few errors were returned the first time my html was passed through the official [W3C Validator.](https://validator.w3.org/nu/?doc=https%3A%2F%2Fadamgilroy22.github.io%2Fstick-kick%2F) | ![HTML validation 1](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/html-validation-before.png) |
-
-    - I tweaked the HTML to change sections with no headings to divs and ran it through again and this time no errors were returned. After discussing with my mentor, I changed the divs back to sections as despite the errors, it's better practice to use sections in this case.
-
-    ![HTML validation 2](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/html-validation-after.png)
+| Description | Image |
+| ----------- | ----- |
+| A few errors were returned the first time my html was passed through the official [W3C Validator.](https://validator.w3.org/nu/?doc=https%3A%2F%2Fadamgilroy22.github.io%2Fstick-kick%2F) | ![HTML validation 1](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/html-validation-before.png) |
+| I tweaked the HTML to change sections with no headings to divs and ran it through again and this time no errors were returned. After discussing with my mentor, I changed the divs back to sections as despite the errors, it's better practice to use sections in this case. | ![HTML validation 2](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/html-validation-after.png) |
 
 - __CSS__
     - No errors were returned through the official [(Jigsaw) validator.](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fadamgilroy22.github.io%2Fstick-kick%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
