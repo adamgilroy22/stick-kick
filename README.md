@@ -141,6 +141,8 @@ The following is a list of the technologies I used on this project.
     - Balsamiq was used to design the wireframes for the project.
 - [Techsini](http://techsini.com/multi-mockup/index.php)
     - Techsini was used to generate mockups for the project.
+- [Root Variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
+    - I used root variables for my main black and white colours and the main font on my css file.
 
 ## __Testing__
 
