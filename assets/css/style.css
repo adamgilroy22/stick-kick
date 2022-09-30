@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Mali&display=swap');
 
+:root {
+    --main-font: 'Mali', cursive;
+    --main-white: #fafafa;
+    --main-black: #000000;
+}
+
 body {
-    font-family: 'Mali', cursive;
+    font-family: var(--main-font);
     text-align: center;
-    background-color: #fafafa;
+    background-color: var(--main-white);
 }
 
 /* Header */
@@ -20,7 +26,6 @@ header h1 {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: #000000;
     background-color: rgba(0, 0, 0, 0.8);
     overflow-y: auto;
 }
@@ -28,7 +33,7 @@ header h1 {
 /* Modal text content */
 .modal-content {
     position: relative;
-    background-color: #fafafa;
+    background-color: var(--main-white);
     border: 5px solid #000000;
     height: auto;
     padding: 20px;
@@ -66,26 +71,26 @@ header h1 {
 
 /* Buttons */
 button {
-    font-family: 'Mali', cursive;
+    font-family: var(--main-font);
     text-transform: uppercase;
     font-size: 1.2rem;
     font-weight: bold;
     text-align: center;
     border: 2px solid #000000;
     padding: 1rem;
-    background-color: #fafafa;
+    background-color: var(--main-white);
     border-radius: 6px;
 }
 
 button:hover {
-    color: #fafafa;
-    background-color: #000000;
+    color: var(--main-white);
+    background-color: var(--main-black);
     cursor: pointer;
 }
 
 /* Footer */
 footer a {
-    color: #000000;
+    color: var(--main-black);
 }
 
 /* Media Queries */
