@@ -14,27 +14,28 @@ header h1 {
 /* Modal instructions box */
 .modal {
     display: none;
-    position: fixed; 
+    position: fixed;
     padding: 20px;
-    left: 0; 
+    left: 0;
     top: 0;
     width: 100%;
-    height: 100%; 
+    height: 100%;
     background-color: #000000;
     background-color: rgba(0, 0, 0, 0.8);
     overflow-y: auto;
-  }
+}
+
 /* Modal text content */
-  .modal-content {
-    position: relative; 
+.modal-content {
+    position: relative;
     background-color: #fafafa;
     border: 5px solid #000000;
     height: auto;
-    padding: 20px; 
-    margin: auto; 
+    padding: 20px;
+    margin: auto;
     width: 66%;
     font-size: 1.5rem;
-  }
+}
 
 /* Main game area */
 .game-area {
@@ -48,7 +49,7 @@ header h1 {
 }
 
 /* Game image */
-.game-image-area img{
+.game-image-area img {
     width: auto;
     max-width: 100%;
     height: auto;
@@ -58,7 +59,7 @@ header h1 {
 /* Buttons */
 button {
     font-family: 'Mali', cursive;
-    text-transform: uppercase; 
+    text-transform: uppercase;
     font-size: 1.2rem;
     font-weight: bold;
     text-align: center;
@@ -76,13 +77,13 @@ button:hover {
 
 /* Footer */
 footer a {
-    color:#000000;
-  }
+    color: #000000;
+}
 
 /* Media Queries */
 
 /* 1400px wide and below */
-@media screen and (max-width: 1400px){
+@media screen and (max-width: 1400px) {
     .game-image-area {
         width: 50%;
         margin: auto;
@@ -116,7 +117,7 @@ footer a {
     .modal-content {
         font-size: 1.2rem;
         width: 80%;
-      }
+    }
 
     button {
         font-size: 0.7rem;

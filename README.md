@@ -139,6 +139,8 @@ The following is a list of the technologies I used on this project.
     - Canva was used to design the game images and the favicon.
 - [Balsamiq](https://balsamiq.com/)
     - Balsamiq was used to design the wireframes for the project.
+- [Techsini](http://techsini.com/multi-mockup/index.php)
+    - Techsini was used to generate mockups for the project.
 
 ## __Testing__
 
