@@ -20,19 +20,19 @@ let closeButton = document.querySelector(".close-button");
 /**
  * Modal box settings
  */
-modalButton.onclick = function () {
+modalButton.addEventListener("click", () => {
     modal.style.display = "block";
-};
+});
 
-closeButton.onclick = function () {
+closeButton.addEventListener("click", () => {
     modal.style.display = "none";
-};
+});
 
-window.onclick = function (e) {
+window.addEventListener("click", (e) => {
     if (e.target == modal) {
         modal.style.display = "none";
     }
-};
+});
 
 /**
  * Music control settings
