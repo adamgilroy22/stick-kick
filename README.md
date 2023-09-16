@@ -190,4 +190,4 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 
 ## __Acknowledgements__
 
-I would like to give special thanks to my mentor, [Time Nelson](https://www.linkedin.com/in/travel-tim-nelson/) for his guidance during the development of this project.
+I would like to give special thanks to my mentor, [Tim Nelson](https://www.linkedin.com/in/travel-tim-nelson/) for his guidance during the development of this project.
