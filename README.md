@@ -7,6 +7,8 @@ The aim of this project is to build an interactive front-end site which responds
 
 ![Website mockup](https://github.com/adamgilroy22/stick-kick/blob/main/documentation/testing/mockup.png)
 
+Final Grade: Distinction
+
 ## __UX & Design__
 As the site is a single-serving site, there is only one page. I opted to keep the design of the page simple and clean so as it doesn't distract from the main game section of the page.
 
